@@ -3,6 +3,7 @@ import 'package:logic_by_sonik/screens/one/multi_image_select.dart';
 import 'package:logic_by_sonik/screens/one/multi_select.dart';
 import 'package:logic_by_sonik/screens/one/single_selection.dart';
 import 'package:logic_by_sonik/screens/one/toggle_selection.dart';
+import 'package:logic_by_sonik/screens/three/form_validation.dart';
 import 'package:logic_by_sonik/screens/three/search_feature.dart';
 import 'package:logic_by_sonik/screens/two/upload_file.dart';
 import 'package:logic_by_sonik/screens/two/upload_image.dart';
@@ -33,6 +34,9 @@ class _RootState extends State<Root> {
 
     // 3- Searching
     SearchFeature(),
+
+    // 4- Form Validation
+    FormValidation(),
   ];
   int currentIndex = 0;
 
