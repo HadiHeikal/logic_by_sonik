@@ -19,7 +19,12 @@ class Root extends StatefulWidget {
 
 class _RootState extends State<Root> {
   final PageController pageController = PageController();
-  List<Widget> screens = [
+  late List<Widget> screens;
+
+  @override
+  void initState() {
+    super.initState();
+    screens = [
     // 1- Selection
     SingleSelect(),
     MultiImageSelect(),
